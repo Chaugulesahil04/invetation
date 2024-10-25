@@ -1,1 +1,43 @@
+/* App.css */
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Light background for better contrast */
+  color: #333; /* Dark text color for readability */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the app takes at least the full height of the viewport */
+}
+
+/* Header styles (if you have a header component) */
+.header {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main content styles */
+.main-content {
+  flex: 1; /* Takes up available space */
+  padding: 20px; /* Add some padding around the content */
+}
+
+/* Footer styles (if you have a footer component) */
+.footer {
+  background-color: #333; /* Dark background */
+  color: white; /* White text */
+  text-align: center;
+  padding: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px; /* Less padding on smaller screens */
+  }
+}
